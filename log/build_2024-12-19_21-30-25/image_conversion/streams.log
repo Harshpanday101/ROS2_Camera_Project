@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/harsh/cam_project/build/image_conversion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/harsh/cam_project/src/image_conversion -DCMAKE_INSTALL_PREFIX=/home/harsh/cam_project/install/image_conversion
+[0.025s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.128s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.129s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.133s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.164s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.267s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.283s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.287s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.294s] -- Configuring incomplete, errors occurred!
+[0.294s] See also "/home/harsh/cam_project/build/image_conversion/CMakeFiles/CMakeOutput.log".
+[0.294s] [31mCMake Error at CMakeLists.txt:16 (target_link_libraries):
+[0.294s]   Cannot specify link libraries for target "image_conversion_node" which is
+[0.295s]   not built by this project.
+[0.295s] 
+[0.295s] [0m
+[0.302s] Invoked command in '/home/harsh/cam_project/build/image_conversion' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/harsh/cam_project/src/image_conversion -DCMAKE_INSTALL_PREFIX=/home/harsh/cam_project/install/image_conversion

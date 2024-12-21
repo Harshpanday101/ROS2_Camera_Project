@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/harsh/cam_project/build/image_conversion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/harsh/cam_project/src/image_conversion -DCMAKE_INSTALL_PREFIX=/home/harsh/cam_project/install/image_conversion
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.269s] [31mCMake Error at CMakeLists.txt:7 (target_include_directories):
+[0.269s]   Cannot specify include directories for target "image_conversion_node" which
+[0.269s]   is not built by this project.
+[0.269s] 
+[0.269s] [0m
+[0.270s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.480s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.512s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.515s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.587s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.644s] -- Looking for pthread.h
+[0.710s] -- Looking for pthread.h - found
+[0.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.779s] -- Found Threads: TRUE  
+[0.808s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.824s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.830s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.843s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.843s] [31mCMake Error at CMakeLists.txt:16 (target_link_libraries):
+[0.843s]   Cannot specify link libraries for target "image_conversion_node" which is
+[0.843s]   not built by this project.
+[0.843s] 
+[0.843s] [0m
+[0.844s] -- Configuring incomplete, errors occurred!
+[0.844s] See also "/home/harsh/cam_project/build/image_conversion/CMakeFiles/CMakeOutput.log".
+[0.856s] Invoked command in '/home/harsh/cam_project/build/image_conversion' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/harsh/cam_project/src/image_conversion -DCMAKE_INSTALL_PREFIX=/home/harsh/cam_project/install/image_conversion

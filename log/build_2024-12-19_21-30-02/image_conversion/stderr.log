@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:7 (target_include_directories):
+  Cannot specify include directories for target "image_conversion_node" which
+  is not built by this project.
+
+[0m
+[31mCMake Error at CMakeLists.txt:16 (target_link_libraries):
+  Cannot specify link libraries for target "image_conversion_node" which is
+  not built by this project.
+
+[0m

@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/harsh/cam_project/build/image_conversion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/harsh/cam_project/build/image_conversion -- -j16 -l16
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.138s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.143s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.246s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.273s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.292s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.299s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.358s] -- Configuring done
+[0.368s] -- Generating done
+[0.371s] -- Build files have been written to: /home/harsh/cam_project/build/image_conversion
+[0.409s] [ 50%] [32mBuilding CXX object CMakeFiles/image_conversion_node.dir/src/image_conversion_node.cpp.o[0m
+[6.992s] [100%] [32m[1mLinking CXX executable image_conversion_node[0m
+[7.496s] [100%] Built target image_conversion_node
+[7.505s] Invoked command in '/home/harsh/cam_project/build/image_conversion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/harsh/cam_project/build/image_conversion -- -j16 -l16
+[7.514s] Invoking command in '/home/harsh/cam_project/build/image_conversion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/harsh/cam_project/build/image_conversion
+[7.519s] -- Install configuration: ""
+[7.519s] -- Installing: /home/harsh/cam_project/install/image_conversion/lib/image_conversion/image_conversion_node
+[7.521s] -- Set runtime path of "/home/harsh/cam_project/install/image_conversion/lib/image_conversion/image_conversion_node" to ""
+[7.522s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion//launch
+[7.522s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion//launch/image_conversion_launch.py
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/ament_index/resource_index/package_run_dependencies/image_conversion
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/ament_index/resource_index/parent_prefix_path/image_conversion
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/environment/ament_prefix_path.sh
+[7.522s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion/environment/ament_prefix_path.dsv
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/environment/path.sh
+[7.522s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion/environment/path.dsv
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/local_setup.bash
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/local_setup.sh
+[7.522s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/local_setup.zsh
+[7.523s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion/local_setup.dsv
+[7.523s] -- Installing: /home/harsh/cam_project/install/image_conversion/share/image_conversion/package.dsv
+[7.523s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/ament_index/resource_index/packages/image_conversion
+[7.523s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/cmake/image_conversionConfig.cmake
+[7.523s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/cmake/image_conversionConfig-version.cmake
+[7.523s] -- Up-to-date: /home/harsh/cam_project/install/image_conversion/share/image_conversion/package.xml
+[7.524s] Invoked command in '/home/harsh/cam_project/build/image_conversion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harsh/ros2_ws/install/my_python_pkg:/home/harsh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/harsh/cam_project/build/image_conversion
